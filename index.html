@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Roofing & Siding Contractor | Expert Services</title>
     <meta name="description" content="Trusted roofing and siding contractor providing professional estimates and quality workmanship for your home improvement needs.">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,17 +22,30 @@
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex justify-between items-center">
                 <div class="flex items-center">
-                    <h1 class="text-2xl font-bold text-blue-600">Roofing Pro</h1>
+                    <a href="https://ihmunro.github.io/roofing-and-siding-contractor-2025-02-18-pulgz" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition duration-300">Roofing Pro</a>
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-600 hover:text-blue-600 transition duration-300">Services</a>
                     <a href="#estimates" class="text-gray-600 hover:text-blue-600 transition duration-300">Estimates</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">About</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition duration-300">Testimonials</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600 hover:text-blue-600">
+                <button class="mobile-menu-button md:hidden text-gray-600 hover:text-blue-600" aria-label="Toggle mobile menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0">
+                <div class="px-4 py-2 space-y-2">
+                    <a href="#services" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Services</a>
+                    <a href="#estimates" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Estimates</a>
+                    <a href="#about" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">About</a>
+                    <a href="#testimonials" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Testimonials</a>
+                    <a href="#faq" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">FAQ</a>
+                    <a href="#contact" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -34,13 +55,13 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-4xl mx-auto text-center">
                 <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                    Trusted Roofing and Siding Contractor
+                    Transform Your Home with Expert Roofing & Siding
                 </h2>
                 <p class="text-xl text-gray-600 mb-8">
-                    Professional roofing and siding solutions for your home
+                    Over 20 years of experience delivering premium roofing and siding solutions. Quality materials, expert craftsmanship, and unmatched customer service.
                 </p>
                 <a href="#contact" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transform hover:scale-105 transition duration-300 shadow-lg">
-                    Get Free Estimate
+                    Get Your Free Estimate Today
                 </a>
             </div>
         </div>
@@ -49,68 +70,109 @@
     <!-- Services Section -->
     <section id="services" class="py-24 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h3 class="text-3xl font-bold text-center mb-16">Our Services</h3>
+            <h3 class="text-3xl font-bold text-center mb-16">Comprehensive Roofing & Siding Solutions</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102">
                     <i class="fas fa-home text-4xl text-blue-600 mb-4"></i>
-                    <h4 class="text-xl font-semibold mb-4">Roofing Services</h4>
-                    <p class="text-gray-600">Professional roofing installation, repair, and maintenance services.</p>
+                    <h4 class="text-xl font-semibold mb-4">Premium Roofing Services</h4>
+                    <p class="text-gray-600">Expert installation of asphalt, metal, and slate roofing. Comprehensive repairs and preventive maintenance to protect your investment.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102">
                     <i class="fas fa-tools text-4xl text-blue-600 mb-4"></i>
-                    <h4 class="text-xl font-semibold mb-4">Siding Installation</h4>
-                    <p class="text-gray-600">Expert siding solutions to enhance your home's appearance and protection.</p>
+                    <h4 class="text-xl font-semibold mb-4">Professional Siding Installation</h4>
+                    <p class="text-gray-600">Transform your home's exterior with premium vinyl, fiber cement, or wood siding. Energy-efficient solutions with lifetime warranties.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102">
                     <i class="fas fa-clipboard-check text-4xl text-blue-600 mb-4"></i>
-                    <h4 class="text-xl font-semibold mb-4">Free Estimates</h4>
-                    <p class="text-gray-600">Detailed estimates for both roofing and siding projects.</p>
+                    <h4 class="text-xl font-semibold mb-4">Detailed Free Estimates</h4>
+                    <p class="text-gray-600">Transparent pricing with comprehensive project breakdowns. No hidden fees, just honest, competitive rates for quality work.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Estimates Section -->
-    <section id="estimates" class="py-24 bg-gray-50">
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-3xl mx-auto text-center">
-                <h3 class="text-3xl font-bold mb-8">Get Your Free Estimate</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-white p-8 rounded-xl shadow-lg">
-                        <h4 class="text-xl font-semibold mb-4">Roofing Estimates</h4>
-                        <p class="text-gray-600 mb-6">Comprehensive roofing assessments and detailed cost breakdowns.</p>
-                        <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
-                            Request Estimate
-                        </button>
+            <div class="max-w-3xl mx-auto">
+                <h3 class="text-3xl font-bold text-center mb-12">Our Story</h3>
+                <div class="space-y-8">
+                    <p class="text-gray-700 leading-relaxed">
+                        Founded in 2003, Roofing Pro began with a simple mission: to provide homeowners with exceptional roofing and siding services at fair prices. What started as a small family business has grown into one of the region's most trusted contractors, serving thousands of satisfied customers across the community.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        Our core values of integrity, quality craftsmanship, and customer satisfaction drive everything we do. We believe in using only the highest quality materials, employing skilled professionals, and standing behind our work with industry-leading warranties. Every project is treated with the same attention to detail and commitment to excellence that has defined our reputation for over two decades.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-center mb-16">What Our Clients Say</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">★★★★★</div>
+                        <p class="font-semibold">Sarah Johnson</p>
                     </div>
-                    <div class="bg-white p-8 rounded-xl shadow-lg">
-                        <h4 class="text-xl font-semibold mb-4">Siding Estimates</h4>
-                        <p class="text-gray-600 mb-6">Expert siding consultations and accurate project quotes.</p>
-                        <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
-                            Request Estimate
-                        </button>
+                    <p class="text-gray-600 mb-4">Homeowner</p>
+                    <p class="italic">"The team at Roofing Pro replaced our entire roof in just two days. Their attention to detail and cleanup was impressive. Our new roof looks fantastic and we've already noticed improved energy efficiency."</p>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">★★★★★</div>
+                        <p class="font-semibold">Michael Chen</p>
                     </div>
+                    <p class="text-gray-600 mb-4">Property Manager</p>
+                    <p class="italic">"Managing multiple properties requires reliable contractors. Roofing Pro has consistently delivered quality work on time and within budget. Their vinyl siding installation has significantly reduced our maintenance costs."</p>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">★★★★★</div>
+                        <p class="font-semibold">Emily Martinez</p>
+                    </div>
+                    <p class="text-gray-600 mb-4">Real Estate Agent</p>
+                    <p class="italic">"I've recommended Roofing Pro to numerous clients, and they always exceed expectations. Their estimates are accurate, and the quality of work is outstanding."</p>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">★★★★★</div>
+                        <p class="font-semibold">David Wilson</p>
+                    </div>
+                    <p class="text-gray-600 mb-4">Commercial Building Owner</p>
+                    <p class="italic">"After storm damage to our office building, Roofing Pro handled everything from insurance coordination to completion. Professional, efficient, and highly skilled team."</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="py-24 bg-white">
+    <section id="faq" class="py-24 bg-gray-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h3 class="text-3xl font-bold text-center mb-16">Frequently Asked Questions</h3>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="bg-gray-50 rounded-lg p-6">
+                <div class="bg-white rounded-lg p-6 hover:shadow-lg transition duration-300">
                     <h4 class="text-lg font-semibold mb-3">How long does a typical roofing project take?</h4>
-                    <p class="text-gray-600">Most residential roofing projects can be completed within 1-3 days, depending on the size and complexity of the roof.</p>
+                    <p class="text-gray-600">Most residential roofing projects are completed within 1-3 days, depending on the size and complexity. Larger homes or those requiring structural repairs may take 4-5 days. We'll provide a detailed timeline during your consultation.</p>
                 </div>
-                <div class="bg-gray-50 rounded-lg p-6">
-                    <h4 class="text-lg font-semibold mb-3">What types of siding do you offer?</h4>
-                    <p class="text-gray-600">We offer vinyl, fiber cement, wood, and aluminum siding options to suit your needs and preferences.</p>
+                <div class="bg-white rounded-lg p-6 hover:shadow-lg transition duration-300">
+                    <h4 class="text-lg font-semibold mb-3">What types of warranties do you offer?</h4>
+                    <p class="text-gray-600">We provide manufacturer warranties on all materials (20-50 years depending on product) plus our own 10-year workmanship guarantee. This covers both labor and materials for complete peace of mind.</p>
                 </div>
-                <div class="bg-gray-50 rounded-lg p-6">
-                    <h4 class="text-lg font-semibold mb-3">Do you offer warranties?</h4>
-                    <p class="text-gray-600">Yes, we provide manufacturer warranties on materials and workmanship guarantees on all our installations.</p>
+                <div class="bg-white rounded-lg p-6 hover:shadow-lg transition duration-300">
+                    <h4 class="text-lg font-semibold mb-3">Do you offer financing options?</h4>
+                    <p class="text-gray-600">Yes, we partner with several financial institutions to offer flexible payment plans with competitive rates. Options include 0% interest for 12 months and long-term financing up to 84 months.</p>
+                </div>
+                <div class="bg-white rounded-lg p-6 hover:shadow-lg transition duration-300">
+                    <h4 class="text-lg font-semibold mb-3">Are you licensed and insured?</h4>
+                    <p class="text-gray-600">Absolutely. We maintain full licensing and carry comprehensive insurance including liability and workers' compensation. We're happy to provide documentation upon request.</p>
+                </div>
+                <div class="bg-white rounded-lg p-6 hover:shadow-lg transition duration-300">
+                    <h4 class="text-lg font-semibold mb-3">What brands and materials do you use?</h4>
+                    <p class="text-gray-600">We work with industry-leading manufacturers like GAF, CertainTeed, and James Hardie. All materials meet or exceed industry standards and come with extensive warranties.</p>
                 </div>
             </div>
         </div>
@@ -120,9 +182,9 @@
     <section id="contact" class="py-24 bg-blue-600 text-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto text-center">
-                <h3 class="text-3xl font-bold mb-8">Contact Us Today</h3>
-                <p class="text-xl mb-8">Get in touch for a free consultation and estimate</p>
-                <div class="bg-white rounded-xl p-8 text-gray-900">
+                <h3 class="text-3xl font-bold mb-8">Get Your Free Consultation</h3>
+                <p class="text-xl mb-8">Schedule your no-obligation estimate today and discover why we're the most trusted name in roofing and siding.</p>
+                <div class="bg-white rounded-xl p-8 text-gray-900 hover:shadow-2xl transition duration-300">
                     <a href="mailto:john@lana.com" class="text-blue-600 text-xl font-semibold hover:text-blue-700 transition duration-300">
                         john@lana.com
                     </a>
@@ -137,19 +199,25 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div>
                     <h4 class="text-xl font-bold mb-4">Roofing Pro</h4>
-                    <p class="text-gray-400">Professional roofing and siding services you can trust.</p>
+                    <p class="text-gray-400">Your trusted partner for premium roofing and siding solutions since 2003.</p>
                 </div>
                 <div>
                     <h4 class="text-xl font-bold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Services</a></li>
-                        <li><a href="#estimates" class="text-gray-400 hover:text-white transition duration-300">Estimates</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition duration-300">Testimonials</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition duration-300">FAQ</a></li>
+                        <li><a href="https://ihmunro.github.io/roofing-and-siding-contractor-2025-02-18-pulgz/blog.html" class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-xl font-bold mb-4">Contact</h4>
-                    <p class="text-gray-400">Email: john@lana.com</p>
+                    <h4 class="text-xl font-bold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="https://ihmunro.github.io/roofing-and-siding-contractor-2025-02-18-pulgz/privacy.html" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="https://ihmunro.github.io/roofing-and-siding-contractor-2025-02-18-pulgz/terms.html" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
+                        <li><p class="text-gray-400">Email: john@lana.com</p></li>
+                    </ul>
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
@@ -157,5 +225,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
